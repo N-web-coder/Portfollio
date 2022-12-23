@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfollio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/79ed17c699.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <div id="header">
+        <div class="container">
+            <nav>
+                <h1 class="logo"> <span>Nit</span>ish<span>․</span></h1>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfoilo">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closeMenu()" ></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openMenu()" ></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, I'm <span>Nitish</span><br>kumar from Bihar</h1>
+            </div>
+        </div>
+    </div>
+    <!-- -----About----- -->
+    <div id="about">
+        <div class="about-container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/MEEk.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title" >About Me</h1>
+                    <p>To enhance my professional skills , capabilities and knowledge in an organization which recognizes
+                        the value of hard work and trust me with responsibilities and challenges. Lorem ipsum dolor sit 
+                        amet consectetur adipisicing elit. Fuga, ipsa? Lorem ipsum dolor sit, amet 
+                        consectetur adipisicing elit.
+                    </p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-links" onclick="openTab('skills')">Skills</p>
+                            <p class="tab-links" onclick="openTab('education')">Education</p>
+                            <p class="tab-links" onclick="openTab('certification')">Certification</p>
+                        </div>
+                        <div class="tab-contents actiev-tab" id="skills">
+                            <ul>
+                                <li><span>Computer Languages</span><br>HTML , CSS , Java , JavaScript</li>
+                                <li><span>Software Packages</span><br> React, Bootstrap , Axios </li>
+                                <li><span>Soft Skills</span><br>Communication Skills , Analytic Skills</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><strong>2018-2022 </strong> <br> <span>Batchlore Of Technology In Information Technology</span> <br> Durgapur Institute Of Advanced Technology And Management , west-Bengal</li>
+                                <li><strong>2015-2018 </strong> <br> <span>12th</span> <br>Intermediate from Patel College , Bihar</li>
+                                <li><strong>2014  </strong> <br> <span> 10th</span> <br> Matriculation from  Udasi Hari Charan singh , Bihar</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="certification">
+                            <ul>
+                                <li> <span>May-Present</span> </br> Newton School Full Stack development Bootcamp </li>
+                                <li> <span>2019</span> </br> Joy Of Computing Using Python</li>
+                                <li> <span>2019</span> </br> Developing Soft-Skills and personality</li>
+                                <li> <span>2019</span> </br> Ethics</li>
+                            </ul>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+   <!-- ------services  -->
+
+   <div id="services">
+    <div class="container">
+        <h1 class="sub-title" >My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo minima vitae natus
+                     quos maiores nulla voluptatem esse! Consequuntur, nemo quod.</p>
+                <a href="#">Learn more</a>         
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>UI/UX Design</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo minima vitae natus
+                     quos maiores nulla voluptatem esse! Consequuntur, nemo quod.</p>
+                <a href="#">Learn more</a>         
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store-ios"></i>
+                <h2>Web Developer</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo minima vitae natus
+                     quos maiores nulla voluptatem esse! Consequuntur, nemo quod.</p>
+                <a href="#">Learn more</a>         
+            </div>
+        </div>
+    </div>
+   </div>
+
+   <!-- -------portfolio------ -->
+
+   <div id="portfoilo">
+    <div class="work-container">
+        <h1 class="sub-title" >My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/2.jpg">
+                <div class="layer">
+                    <h3>Weather App</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                        At illo quo quam iusto reprehenderit velit.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>    
+                </div>
+            </div>
+            <div class="work">
+                <img src="https://www.codeproject.com/KB/macros/Convert/Convert.gif">
+                <div class="layer">
+                    <h3>Converter</h3>
+                    <p>A Converter in JavaScript which converts the given number with any base  to it's corresponding representation in other base</p>
+                    <a href="https://mellifluous-piroshki-714af2.netlify.app/"><i class="fa-solid fa-up-right-from-square"></i></a>    
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/4.jpg">
+                <div class="layer">
+                    <h3>Account Verification</h3>
+                    <p>Account Verify  </p>
+                    <a href="https://n-web-coder.github.io/Verify_Account/"><i class="fa-solid fa-up-right-from-square"></i></a>    
+                </div>
+            </div>
+            <!-- <div class="work">
+                <img src="images/4.jpg">
+                <div class="layer">
+                    <h3>Mobile Tab</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                        At illo quo quam iusto reprehenderit velit.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>    
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/4.jpg">
+                <div class="layer">
+                    <h3>Password Validation</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                        At illo quo quam iusto reprehenderit velit.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>    
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/4.jpg">
+                <div class="layer">
+                    <h3>Email Validation</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                        At illo quo quam iusto reprehenderit velit.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>    
+                </div>
+            </div> -->
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+   </div>
+
+   <!-- -------Contact------ -->
+
+   <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title" >Contact Me</h1>
+                <p> <i class="fa-sharp fa-solid fa-paper-plane"></i> nitishkr152@gmail.com</p>
+                <p> <i class="fa-solid fa-phone"></i> 8436654894</p>
+                <div class="social-icons">
+                    <a href="https://github.com/N-web-coder"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/nitish-kumar-32a386187/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <a href="images/nitish's Resume.pdf" download class="btn btn2" ><i class="fa-solid fa-download"></i> Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet" >
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2" >Submit</button>
+                </form>
+
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Designed By <i class="fa-solid fa-heart"></i> 💛 N.K</p>
+    </div>
+   </div>
+
+   <script src="script.js"></script>
+</body>
+</html>
