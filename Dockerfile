@@ -23,6 +23,11 @@ COPY . .
 
 RUN composer install --no-dev --optimize-autoloader
 
+RUN mkdir -p storage/framework/sessions \
+    storage/framework/views \
+    storage/framework/cache \
+    && chmod -R 775 storage bootstrap/cache
+
 EXPOSE 10000
 
 CMD php artisan serve --host=0.0.0.0 --port=10000
