@@ -10,6 +10,7 @@ ENV APP_ENV=production
 ENV APP_DEBUG=false
 ENV LOG_CHANNEL=stderr
 ENV COMPOSER_HOME=/tmp/composer
+COPY nginx.conf /etc/nginx/conf.d/default.conf
 
 RUN composer install \
     --no-dev \
