@@ -9,6 +9,7 @@ ENV WEBROOT=/var/www/html/public
 ENV APP_ENV=production
 ENV APP_DEBUG=false
 ENV LOG_CHANNEL=stderr
+ENV COMPOSER_HOME=/tmp/composer
 
 RUN composer install \
     --no-dev \
