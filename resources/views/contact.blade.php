@@ -368,13 +368,13 @@
                             <span>Follow Me</span>
 
                             <div class="footer-single-info">
-                                <a href="{{ env('FACEBOOK') }}" class="info-box">
+                                <a href="{{ env('FACEBOOK') }}" class="info-box" target="_blank" rel="noopener noreferrer" >
                                     <span class="icon"><i class="icofont-facebook"></i></span>
                                 </a>
-                                <a href="{{ env('GITHUB') }}" class="info-box">
+                                <a href="{{ env('GITHUB') }}" class="info-box" target="_blank" rel="noopener noreferrer" >
                                     <span class="icon"><i class="icofont-github"></i></span>
                                 </a>
-                                <a href="{{ env('LINKEDIN') }}" class="info-box">
+                                <a href="{{ env('LINKEDIN') }}" class="info-box" target="_blank" rel="noopener noreferrer" >
                                     <span class="icon"><i class="icofont-linkedin"></i></span>
                                 </a>
                             </div>
