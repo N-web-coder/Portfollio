@@ -3,6 +3,10 @@
 use App\Http\Controllers\PortfolioController;
 use Illuminate\Support\Facades\Route;
 
+Route::get('/test-route', function () {
+    return 'Laravel route is working!';
+});
+
 Route::get('/', function () {
     $projects = config('projects');
     return view('layouts.index', compact('projects'));
